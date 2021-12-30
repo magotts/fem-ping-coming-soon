@@ -19,3 +19,70 @@ body {
   font-size: 20px;
 }
 
+.container {
+  margin-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.pinglogo {
+ margin-bottom: 50px;
+}
+
+
+.illustration {
+  padding-top: 50px;
+}
+
+.illustration img {
+
+  width: auto;
+  height: 200px;
+}
+
+.launching {
+}
+
+.launching h2 {
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.launching span {
+font-weight: 700;
+color: black;
+}
+
+.launching p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.emailnotify {
+  display: flex;
+  margin-top: 20px;
+}
+
+.emailnotify .inputemail {
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.emailnotify .notifybutton {
+  border-radius: 90px;
+  border-color: var(--blue);
+  padding: 10px 30px 10px 30px;
+  background-color: var(--blue);
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+footer {
+  padding-top: 30px;
+  color: var(--gray);
+  font-size: 15px;
+}
