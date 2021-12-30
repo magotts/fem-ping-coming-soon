@@ -104,3 +104,23 @@ footer {
   border-radius: 100%;
   border: 1px solid var(--pale-blue);
 }
+
+
+@media (max-width: 750px) {
+  .emailnotify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .emailnotify .notifybutton {
+    margin-top: 10px;
+    width: 275px;
+  }
+  
+  .illustration img {
+    width: auto;
+    height: 200px;
+  }
+}
